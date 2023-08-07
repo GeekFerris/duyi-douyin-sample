@@ -1,3 +1,4 @@
+<!-- 初始组件 -->
 <template>
   <div class="item">
     <i>

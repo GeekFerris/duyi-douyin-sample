@@ -1,3 +1,4 @@
+<!-- 初始组件 -->
 <script setup lang="ts">
 defineProps<{
   msg: string
