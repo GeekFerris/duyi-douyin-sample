@@ -6,6 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
+pnpm-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -40,7 +41,11 @@ build/Release
 
 # Dependency directories
 node_modules/
+node_modules
 jspm_packages/
+.DS_Store
+dist-ssr
+*.local
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -128,3 +133,20 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+test/
+cache_dir/
+package-lock.json
